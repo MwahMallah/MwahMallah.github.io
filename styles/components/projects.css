@@ -1,0 +1,124 @@
+.projects__subtitle {
+    font-size: var(--size-2xl);
+    transition: color 0.3s;
+    text-align: center;
+}
+
+.projects__subtitle:hover {
+    color: var(--clr-orange);
+}
+
+
+.projects__description {
+    text-align: center;
+}
+
+.projects__title {
+    font-size: var(--size-2xl);
+    transition: color 0.3s;
+}
+
+.projects__title:hover {
+    color: var(--clr-orange);
+}
+
+.projects__paragraph {
+    margin: 1rem auto;
+    max-width: 70ch;
+    font-size: var(--size-sm);
+}
+
+.projects__paragraph-main {
+    margin-bottom: 2rem;
+}
+
+.projects__button {
+    font-size: var(--size-sm);
+    margin-bottom: 2.5rem;
+}
+
+.projects__image {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+
+@media (min-width: 640px) {
+    .projects__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+        grid-template-areas: 
+        'image1 description1'
+        'description2 image2'
+        'image3 description3'
+        'description4 image4';
+    }
+
+    .projects__image1 {
+        grid-area: image1;        
+    }
+    .projects__image2 {
+        grid-area: image2; 
+    }
+    .projects__image3 {
+        grid-area: image3; 
+    }
+    .projects__image4 {
+        grid-area: image4; 
+    }
+
+    .projects__description1 {
+        grid-area: description1;
+    }
+
+    .projects__description2 {
+        grid-area: description2;
+    }
+
+    .projects__description3 {
+        grid-area: description3;
+    }
+
+    .projects__description4 {
+        grid-area: description4;
+    }
+
+    .projects__description {
+        padding: 0 1rem;
+    }
+
+    .projects__title {
+        font-size: var(--size-2xl);
+    }
+
+    .projects__subtitle {
+        font-size: var(--size-3xl);
+    }
+ 
+    .projects__paragraph {
+        font-size: var(--size-sm);
+        margin: 1em auto;
+    }
+
+    .projects__paragraph-main {
+        margin-bottom: 6rem;
+        font-size: var(--size-base);
+    }
+
+    .projects__button {
+        font-size: var(--size-base);
+        margin-bottom: 0;
+    }
+
+    .projects__image {
+        opacity: 0.8;
+        transition: opacity 0.3s;
+        margin-bottom: 0;
+    }
+
+    .projects__image:hover {
+        opacity: 1;
+    }
+}
