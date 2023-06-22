@@ -87,6 +87,7 @@
     
     .hero__img {
         order: 2;
+        width: 200px;
     }
     
 }
