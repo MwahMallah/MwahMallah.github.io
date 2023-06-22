@@ -23,7 +23,7 @@
     width: 300px;
     overflow: hidden;
     box-shadow: -1px 13px 45px -15px rgb(253, 135, 26);
-    transition: 0.3s;
+    transition: 1s;
 }
 
 .hero__round_image {
