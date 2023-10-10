@@ -1,3 +1,9 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .about__title {
     font-size: var(--size-2xl);
     transition: color 0.3s;

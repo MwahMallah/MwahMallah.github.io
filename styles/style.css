@@ -35,16 +35,16 @@
     --clr-dark: #1A2D2B;
     --clr-orange: #FD871A;
 
-    --size-xxs: 0.5rem;
-    --size-xs: 0.75rem;
-    --size-sm: 0.875rem;
-    --size-base: 1rem;
-    --size-lg: 1.125rem;
-    --size-xl: 1.5rem;
-    --size-2xl: 1.875rem;
-    --size-3xl: 2.25rem;
-    --size-4xl: 2.75rem;
-    --size-6xl: 3.75rem;
+    --size-xxs: 0.75rem;
+    --size-xs: 1rem;
+    --size-sm: 1.125rem;
+    --size-base: 1.25rem;
+    --size-lg: 1.5rem;
+    --size-xl: 1.75rem;
+    --size-2xl: 2rem;
+    --size-3xl: 2.5rem;
+    --size-4xl: 3rem;
+    --size-6xl: 4rem;
     --size-7xl: 4.5rem;
     --size-8xl: 6rem;
     --size-9xl: 8rem;

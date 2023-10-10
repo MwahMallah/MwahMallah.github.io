@@ -14,6 +14,7 @@
 
 .hero__img {
     order: 1;
+    object-fit: cover; /* Crop the image to fit the container */
     /* height: 6rem;
     width: 6rem;
     border-radius: 50%; */
@@ -24,11 +25,15 @@
     overflow: hidden;
     box-shadow: -1px 13px 45px -15px rgb(253, 135, 26);
     transition: 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero__round_image {
-    width: 100%;
-    height: auto;
+    width: 100%; /* Make sure the image covers the entire container */
+    height: 100%;
+    object-fit: cover; /* Crop the image to fit the container */
 }
 
 .hero__greetings {
@@ -82,7 +87,8 @@
     
     .hero__img {
         order: 2;
-        width: 500px;
+        width: 450px;
+        height: 450px;
     }
 
     .hero__img:hover {
