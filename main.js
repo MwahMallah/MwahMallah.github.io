@@ -1,7 +1,7 @@
 window.addEventListener('scroll', function() {
-    var header_wrapper = document.querySelector('.header__wrapper');
-    var header_name = document.querySelector('.header__name');
-    var header_links = document.querySelectorAll('.header__link');
+    let header_wrapper = document.querySelector('.header__wrapper');
+    let header_name = document.querySelector('.header__name');
+    let header_links = document.querySelectorAll('.header__link');
 
     if (window.scrollY > 0) {
         header_wrapper.classList.add('scrolled');
